@@ -138,7 +138,8 @@ main {
   min-height: 2.2rem;
 }
 
-.form__email:invalid ~ .email__error {
+.form__email:invalid ~ .email__error,
+.form__email:invalid ~ .email__error-icon {
   display: block;
 }
 
@@ -153,6 +154,7 @@ main {
 }
 
 .email__error-icon {
+  display: none;
   position: absolute;
   top: 15%;
   right: 20%;
